@@ -18,26 +18,20 @@ Installation:
 =============
 
 ```bash
-git clone --recursive TODO
+git clone --recursive https://github.com/FloydZ/example_cxx
 ```
 
 Installed Packages:
 -------------------
-- [gbench](https://corpaul.github.io/flamegraphdiff/)
-- [gtest](https://github.com/google/googletest)
-- [b63](https://github.com/FloydZ/b63)
-- [flamegraph-diff](https://corpaul.github.io/flamegraphdiff/)
-	example of usage in `deps/generate_flamegraph_diff.sh`
+- [gbench](https://corpaul.github.io/flamegraphdiff/) cia cmake
+- [gtest](https://github.com/google/googletest) via cmake
+- [b63](https://github.com/FloydZ/b63) via submodule
+
 
 Installed/Needed Tools:
 ------------------------
-
 - [make](https://www.gnu.org/software/make/)
 - [cmake](https://cmake.org/)
-- [flamegraph-rs](https://github.com/flamegraph-rs/flamegraph)
-- [flamegraph](https://github.com/brendangregg/FlameGraph)
-- [hyperfine](https://github.com/sharkdp/hyperfine)
-
 
 Create Build directories:
 -------------------------
