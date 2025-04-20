@@ -59,13 +59,3 @@ An example of how to remove a unneeded git submodule:
 rm -rf .git/modules/<path-to-submodule>
 git config --remove-section submodule.<path-to-submodule>.
 ```
-
-
-TODOs:
-=====
-- [ ] add github workflow
-- [ ] add gitlab workflow
-- [ ] flamegraphdiff as cmake-command, remove `flamegraph` from dependencies. use it from the subfolder in `flamegraphdiff`
-- [ ] cmake sanitiyzer target:  -fsanitize=bounds 
-- [ ] -Warray-bounds, -fstrict-flex-arrays
-
